@@ -1,0 +1,17 @@
+# This is a boilerplate parameters config generated for pipeline 'data_science'
+# using Kedro 0.18.8.
+#
+# Documentation for this file format can be found in "Parameters"
+# Link: https://docs.kedro.org/en/0.18.8/kedro_project_setup/configuration.html#parameters
+
+model_options:
+  test_size: 0.2
+  random_state: 1
+  features:
+    - pickup_longitude
+    - pickup_latitude
+    - dropoff_longitude
+    - dropoff_latitude
+    - passenger_count
+    - abs_lon_change
+    - abs_lat_change
